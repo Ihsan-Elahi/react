@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #171717;
+    height: 900px;
+    font-family: 'inter',sans-serif;
+    
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.navbar {
+    background-color: #3939398A;
+    height: 80px;
+    border-bottom: 1px solid transparent;
+    
+    
+}
+
+.nav-container {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 80px;
+    padding: 29px 48.5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    list-style: none;
+}
+.nav-links i{
+    display: none;
+}
+
+.nav-phone {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+}
+.nav-phone a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu-icon{
+display: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    min-height:900px;
+}
+
+.tittle {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 54px;
+    letter-spacing: -2px;
+    cursor: pointer;
+}
+
+.text-green {
+    color: #A2FB6F;
+}
+
+
+.text-blue {
+    color: #8091FF;
+}
+.tittle:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 248px;
+    height: 70px;
+    color: black;
+    background-color: #8091FF;
+    padding: 16px 36px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 60px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 0.3s;
+    background-color: #A2FB6F;
+    transform: scale(1.2 );
+}
+
+@media (max-width:750px){
+
+.navbar{
+    height: 64px;
+    /* background-color: #252833; */
+
+
+}
+.nav-container{
+    min-height: 60px;
+    padding: 0 20px;
+
+}
+.nav-links{
+    display: none;
+}
+.nav-phone{
+    display: none;
+}
+.menu-icon{
+    display: block;
+}
+
+
+}
+
+
