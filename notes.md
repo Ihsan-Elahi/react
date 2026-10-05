@@ -33,3 +33,12 @@ in this we using get post and patch function in Axios -->
 
 # js by defult syncrons but in api calling working like the asyncrones    then we will using tha await or async  
 
+##### react router dom
+
+
+firstly instal the react router dom
+npm i react-router-dom 
+1.we usng the Browser-router: is this the best routing for the client side  
+main.jsx ma wrap the Browserrouter 
+app.jsx ma Routers import 
+thent add the pages in route path,element 

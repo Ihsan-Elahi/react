@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+h1
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    transform: translate(-50% -50%);
+    text-decoration: underline;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    font-size: large;
+    padding:6px 4px ;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+    padding:10px     ;
+    
+}
