@@ -42,3 +42,11 @@ npm i react-router-dom
 main.jsx ma wrap the Browserrouter 
 app.jsx ma Routers import 
 thent add the pages in route path,element 
+
+
+#use parems params course detals 
+is uing for fetch dynamikla fetch the id /..........
+#use navigate
+
+
+propesDrilling
